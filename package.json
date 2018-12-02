@@ -1,0 +1,32 @@
+{
+  "name": "cordova-helper",
+  "version": "0.1.0",
+  "description": "Help convert your web application into a mobile application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cordova": "cordova"
+  },
+  "bin": {
+    "cordova-helper": "./index.js"
+  },
+  "keywords": [
+    "cordova",
+    "cordova assistant",
+    "cordova helper",
+    "cordova conversion",
+    "hybrid",
+    "cross-platform"
+  ],
+  "author": "parkourkarthik",
+  "license": "MIT",
+  "dependencies": {
+    "7zip": "0.0.6",
+    "android-platform-tools": "^1.2.0",
+    "apk-signer": "^0.2.0",
+    "cordova": "^8.1.2",
+    "log-timestamp": "^0.2.1",
+    "replace-in-file": "^3.4.2",
+    "shelljs": "^0.8.2"
+  }
+}
