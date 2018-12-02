@@ -18,15 +18,26 @@
     "hybrid",
     "cross-platform"
   ],
+  "homepage": "https://github.com/ParkourKarthik/cordova-helper#readme",
   "author": "parkourkarthik",
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ParkourKarthik/cordova-helper/issues",
+    "email": "parkourkarthik@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ParkourKarthik/cordova-helper.git"
+  },
   "dependencies": {
-    "7zip": "0.0.6",
-    "android-platform-tools": "^1.2.0",
-    "apk-signer": "^0.2.0",
     "cordova": "^8.1.2",
     "log-timestamp": "^0.2.1",
     "replace-in-file": "^3.4.2",
     "shelljs": "^0.8.2"
+  },
+  "devDependencies": {
+    "7zip": "0.0.6",
+    "android-platform-tools": "^1.2.0",
+    "apk-signer": "^0.2.0"
   }
 }
