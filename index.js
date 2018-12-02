@@ -24,7 +24,9 @@ if (!fs.existsSync(temp)) {
     sh.exec("md " + temp);
 }
 
-sh.cp('-R',`${distPath}/`, `${temp}/`);
+sh.rm('-rf',`${temp}/*`);
+//copy from dist folder to temp
+sh.cp('-R',`${distPath}/*`, `${temp}/`);
 console.log("copied dist files to temp");
 
 if (fs.existsSync(indexFilePath)) {

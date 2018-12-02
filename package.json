@@ -1,6 +1,6 @@
 {
   "name": "cordova-helper",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Helps to convert your web application into a mobile application",
   "main": "index.js",
   "scripts": {
