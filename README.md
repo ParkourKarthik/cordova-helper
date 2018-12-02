@@ -8,7 +8,7 @@ This is a prototype with **android platform only working**. It is expected to fa
 
 ## Install
 
-> npm install cordova-helper
+> npm install cordova-helper --save-dev
 
 
 ## Configuration
